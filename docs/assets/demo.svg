@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="640" viewBox="0 0 920 640" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14">
+  <!-- Terminal transcript of a real run against the examples playground
+       (examples/build_playground.py), abridged to fit: some columns and
+       sections are elided, but every shown value is from the actual run. -->
+  <rect width="920" height="640" rx="10" fill="#0d1117"/>
+  <rect width="920" height="34" rx="10" fill="#161b22"/>
+  <rect y="20" width="920" height="14" fill="#161b22"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="17" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="17" r="6" fill="#28c840"/>
+  <text x="460" y="22" fill="#8b949e" text-anchor="middle" font-size="12">repobrief — a one-page orientation brief for any repo</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="62"><tspan fill="#7ee787">$</tspan> repobrief /tmp/playground --now 1751500800 --top 5</text>
+    <text x="24" y="90" fill="#d2a8ff"># Repo brief: acme-relay</text>
+    <text x="24" y="114" fill="#8b949e">&gt; Webhook relay that fans events out to local consumers</text>
+    <text x="24" y="142">- <tspan fill="#79c0ff">Files:</tspan> 12 · <tspan fill="#79c0ff">Lines:</tspan> 62 · <tspan fill="#79c0ff">Primary language:</tspan> JavaScript (40%)</text>
+    <text x="24" y="166">- <tspan fill="#79c0ff">Git:</tspan> branch main · 8 commits · last commit yesterday · 3 authors</text>
+    <text x="24" y="202" fill="#d2a8ff">## Layout</text>
+    <text x="24" y="226" fill="#8b949e">| Path       | Files | Main language | Looks like        |</text>
+    <text x="24" y="250">| src/       |     3 | JavaScript    | Source code       |</text>
+    <text x="24" y="274">| test/      |     1 | JavaScript    | Tests             |</text>
+    <text x="24" y="298">| docs/      |     1 | Markdown      | Documentation     |</text>
+    <text x="24" y="334" fill="#d2a8ff">## Entry points</text>
+    <text x="24" y="358">| node main | src/relay.js | <tspan fill="#7ee787">node src/relay.js</tspan> |</text>
+    <text x="24" y="382">| docker    | Dockerfile   | ENTRYPOINT ["node", "src/relay.js"] |</text>
+    <text x="24" y="418" fill="#d2a8ff">## Hot files (churn-ranked)</text>
+    <text x="24" y="442" fill="#8b949e">| # | File          | Commits | Authors | Last touched | Heat     |</text>
+    <text x="24" y="466">| 1 | src/relay.js  |       5 |       3 | yesterday    | <tspan fill="#f85149">████████</tspan> |</text>
+    <text x="24" y="490">| 2 | src/routes.js |       3 |       2 | 3 weeks ago  | <tspan fill="#d29922">███</tspan>      |</text>
+    <text x="24" y="514">| 3 | src/queue.js  |       2 |       2 | 3 days ago   | <tspan fill="#d29922">███</tspan>      |</text>
+    <text x="24" y="550" fill="#d2a8ff">## Health</text>
+    <text x="24" y="574">- [<tspan fill="#7ee787">x</tspan>] README · - [<tspan fill="#7ee787">x</tspan>] License: MIT · - [<tspan fill="#7ee787">x</tspan>] Tests · - [ ] CI</text>
+    <text x="24" y="610" fill="#8b949e"># one page. layout, entry points, hot files, commands — ready to hand off.</text>
+  </g>
+</svg>
