@@ -9,7 +9,7 @@ description = "Generate a one-page orientation brief for any repo: layout, churn
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "JaydenCJ" }]
+authors = [{ name = "JaydenCJ", email = "aisingioro.kiyon@gmail.com" }]
 keywords = ["onboarding", "repository", "cli", "git", "churn", "handoff", "documentation"]
 classifiers = [
     "Development Status :: 3 - Alpha",
